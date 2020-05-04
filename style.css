@@ -1,0 +1,33 @@
+.spt {
+	padding: 7px;
+	color: #A6A6A6; /* #909090 on 31prayers.com */
+	font-size: 1.2em;
+	font-variant: small-caps;
+	text-shadow: 0px 1px 0px rgba(0,0,0,.7),0px -1px 0px rgba(255,255,255,.3); /* reversed on 31p */
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+.spt a {
+	text-shadow: 0px 0px 0px;
+}
+
+.wp_spt_left {
+	position: fixed;
+	width: 150px;
+	margin-left: 0px;
+}
+
+.wp_spt_left .widget-wrap {
+	background: #111111 url(assets/left.png) center left no-repeat; /* #EEEEEE on 31prayers.com */
+}
+
+.wp_spt_right {
+	position: fixed;
+	width: 150px;
+	margin-left: 710px;
+}
+
+.wp_spt_right .widget-wrap {
+	background: #111111 url(assets/right.png) center right no-repeat; /* #EEEEEE on 31prayers.com */
+}
